@@ -26,10 +26,14 @@ menu {
 
 }
 
+.container {
+    padding: 0 1.875rem;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     align-items: center;
 
 }
@@ -52,6 +56,22 @@ menu {
     padding: 0.625rem;
 }
 
+/* MAIN CSS  */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 1.5rem; */
+
+}
+
+.col8,
+.col4 {
+    border: 1px solid black;
+    flex-basis: 100%;
+    padding: 0.75rem;
+}
+
 
 @media (min-width:64rem) {
     .container {
@@ -60,9 +80,7 @@ menu {
         padding: 0 1.875rem;
     }
 
-    .nav {
-        padding: 1rem 2rem;
-    }
+
 
     .mobile-tablet-nav {
         display: none;
@@ -70,6 +88,14 @@ menu {
 
     .desktop-nav {
         display: inline-block;
+    }
+
+    .col4 {
+        flex-basis: calc(100% / 3);
+    }
+
+    .col8 {
+        flex-basis: calc(100% /3 *2);
     }
 
 }
