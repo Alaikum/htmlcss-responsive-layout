@@ -119,7 +119,8 @@ menu {
     border-radius: 2rem;
     width: 90%;
 }
-.img-col8{
+
+.img-col8 {
     margin-bottom: -0.25rem;
 }
 
@@ -135,12 +136,18 @@ menu {
 }
 
 
-.p-col4{
+.p-col4 {
     margin-top: -0.625rem;
     text-align: center;
     flex-direction: column;
     padding-bottom: 2.5rem;
 }
+
+.purple {
+    background-color: #9792E4;
+}
+
+/* SEZIONE VIOLA  */
 
 
 /* MEDIA TABLET  */
@@ -159,7 +166,7 @@ menu {
 
     .img-col8 {
         max-width: 50%;
-       
+
     }
 
     .text-col8 .button {
@@ -167,9 +174,14 @@ menu {
         font-size: 1.125rem;
     }
 
-    .p-col {
+    .p-col4,
+    .p-col8 {
         font-size: 1rem;
     }
+
+
+    /* SEZIONE VIOLA  */
+
 
 }
 
@@ -205,6 +217,7 @@ menu {
 
     .col8 {
         flex-basis: calc(calc(100% /3 *2) - 0.75rem);
+       
     }
 
     .row-col8 {
@@ -216,16 +229,30 @@ menu {
         font-size: 1.125rem;
     }
 
-    .p-col {
+    .p-col4,
+    .p-col8 {
         font-size: 1rem;
     }
 
     .img-col8 {
         padding-top: 3rem;
+        
     }
 
-    #special-col4{
+    .img-col8 img{
+        position: relative;
+        top: 13%;
+    }
+
+    #special-col4 {
         padding-bottom: 0;
+    }
+
+
+    /* SEZIONE VIOLA  */
+
+    .small {
+        max-width: 60rem;
     }
 
 
