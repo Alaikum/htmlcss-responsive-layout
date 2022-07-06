@@ -7,6 +7,7 @@
 
 img {
     width: 100%;
+
 }
 
 ul,
@@ -98,7 +99,8 @@ menu {
 }
 
 .p-col4,
-.p-col8 {
+.p-col8,
+.p-col6 {
     font-size: 0.875rem;
     line-height: 1.75rem;
     font-weight: 700;
@@ -143,11 +145,141 @@ menu {
     padding-bottom: 2.5rem;
 }
 
+
+/* CSS SEZIONE VIOLA  */
 .purple {
     background-color: #9792E4;
+    padding-bottom: 4rem;
 }
 
-/* SEZIONE VIOLA  */
+.row-col6 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.col6 {
+    flex-basis: 100%;
+}
+
+.img-col6 {
+    padding-top: 4rem;
+}
+
+.title-col6 {
+    color: white;
+    font-size: 1.875rem;
+    padding-top: 6rem;
+}
+
+.p-col6 {
+    color: white;
+    padding-top: 3.75rem;
+}
+
+.col6.white {
+    background-color: white;
+    border-radius: 4rem;
+    text-align: center;
+
+}
+
+.text-col6.black {
+    padding: 0 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-col6.black,
+.p-col6.black {
+    color: black;
+}
+
+.col6.white {
+    margin-top: 2.25rem;
+}
+
+.title-col6.black {
+    padding-top: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.p-col6.black {
+    padding-top: 2.25rem;
+}
+
+.simbol-col6 {
+    background-color: #9792E4;
+    color: black;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    padding: 1rem;
+    width: 4rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.875rem;
+
+}
+
+/* CSS PROFILE-CARDS */
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.125rem;
+    padding-top: 4.25rem;
+}
+
+.text-container>h3 {
+    font-size: 1.25rem;
+    color: black;
+}
+
+.text-container>h2 {
+    font-size: 2rem;
+    color: #9792E4;
+
+}
+
+.text-container>p,
+.text-profile {
+    font-size: 1.125rem;
+    color: black;
+}
+
+.row-profile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.125rem;
+}
+
+.col-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9792E4;
+
+}
+
+.text-profile {
+    color: white;
+}
+
+.img-profile {
+    padding-top: 1.875rem;
+    padding-left: 1.625rem;
+    padding-bottom: 2.25rem;
+    ;
+
+}
+
+.img-profile>img {
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
 
 
 /* MEDIA TABLET  */
@@ -175,12 +307,76 @@ menu {
     }
 
     .p-col4,
-    .p-col8 {
+    .p-col8,
+    .p-col6 {
         font-size: 1rem;
     }
 
 
-    /* SEZIONE VIOLA  */
+    /* CSS SEZIONE VIOLA  */
+
+    .text-col6.black {
+        padding: 0 3.75rem;
+    }
+
+    .img-col6 {
+        padding-top: 8.75rem;
+    }
+
+    .title-col6 {
+        font-size: 3.875rem;
+        padding-top: 10.25rem;
+    }
+
+    .p-col6 {
+        padding-top: 4.5rem;
+    }
+
+
+    .col6.white {
+        margin-top: 2.75rem;
+    }
+
+    .title-col6.black {
+        padding-top: 2.25rem;
+        font-size: 1.25rem;
+    }
+
+    .p-col6.black {
+        padding-top: 2.25rem;
+    }
+
+
+    /* CSS PROFILE-CARDS */
+
+
+    .text-container>h3 {
+        font-size: 1.25rem;
+        color: black;
+    }
+
+    .text-container>h2 {
+        font-size: 2.375rem;
+        color: #9792E4;
+
+    }
+
+    .text-container>p {
+        font-size: 1.125rem;
+        color: black;
+    }
+
+    .col-profile {
+
+        flex-direction: row;
+    }
+
+    .img-profile {
+        padding-top: 1.875rem;
+        padding-left: 1.25rem;
+        padding-bottom: 2.875rem;
+
+    }
 
 
 }
@@ -217,7 +413,7 @@ menu {
 
     .col8 {
         flex-basis: calc(calc(100% /3 *2) - 0.75rem);
-       
+
     }
 
     .row-col8 {
@@ -230,16 +426,17 @@ menu {
     }
 
     .p-col4,
-    .p-col8 {
+    .p-col8,
+    .p-col6 {
         font-size: 1rem;
     }
 
     .img-col8 {
         padding-top: 3rem;
-        
+
     }
 
-    .img-col8 img{
+    .img-col8 img {
         position: relative;
         top: 13%;
     }
@@ -249,12 +446,82 @@ menu {
     }
 
 
-    /* SEZIONE VIOLA  */
+    /* CSS SEZIONE VIOLA  */
 
     .small {
         max-width: 60rem;
     }
 
+    .col6 {
+        flex-basis: 0;
+        flex-grow: 1;
+    }
 
+    .row-col6 {
+        flex-direction: row;
+        gap: 4.25rem;
+    }
+
+    .text-col6.black {
+        padding: 0 2.5rem;
+    }
+
+    .img-col6 {
+        padding-top: 7.5rem;
+    }
+
+    .title-col6 {
+        font-size: 1.875rem;
+        padding-top: 9.5rem;
+
+    }
+
+    .p-col6 {
+        padding-top: 3.75rem;
+    }
+
+    .col6.white {
+        margin-top: 18.75rem;
+    }
+
+    .title-col6.black {
+        padding-top: 1.5rem;
+        font-size: 1.25rem;
+    }
+
+    .p-col6.black {
+        padding-top: 1.5rem;
+    }
+
+
+    /* CSS PROFILE-CARDS  */
+
+    .text-container>h3 {
+        font-size: 1.25rem;
+        color: black;
+    }
+
+    .text-container>h2 {
+        font-size: 2.625rem;
+        color: #9792E4;
+
+    }
+
+    .text-container>p {
+        font-size: 1.125rem;
+        color: black;
+    }
+
+    .col-profile {
+
+        flex-direction: row;
+    }
+
+    .img-profile {
+        padding-top: 1.875rem;
+        padding-left: 1.25rem;
+        padding-bottom: 2.875rem;
+
+    }
 
 }
