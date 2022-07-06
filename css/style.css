@@ -268,11 +268,8 @@ menu {
 }
 
 .img-profile {
-    padding-top: 1.875rem;
-    padding-left: 1.625rem;
-    padding-bottom: 2.25rem;
-    ;
-
+    padding: 1.875rem 3.15rem 2.25rem;
+   
 }
 
 .img-profile>img {
@@ -372,9 +369,8 @@ menu {
     }
 
     .img-profile {
-        padding-top: 1.875rem;
-        padding-left: 1.25rem;
-        padding-bottom: 2.875rem;
+        padding-top: 1.875rem 1.25rem 2.875rem;
+       
 
     }
 
@@ -518,9 +514,8 @@ menu {
     }
 
     .img-profile {
-        padding-top: 1.875rem;
-        padding-left: 1.25rem;
-        padding-bottom: 2.875rem;
+        padding-top: 1.875rem 1.25rem 2.875rem;
+        
 
     }
 
